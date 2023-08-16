@@ -18,12 +18,13 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
     <header class="header">
       <div class="header-container container">
         <nav class="header-nav">
-          <a href="./index.html" class="logo-link link"
+          <a href="./index.html" class="logo-link link header-logo"
             >Web<span class="web-logo">Studio</span></a
           >
           <ul class="nav-list list">
@@ -56,6 +57,83 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="open-menu" data-menu-open>
+          <svg
+            class="svg-menu"
+            aria-label="mobile-menu-open"
+            width="32"
+            height="22"
+            stroke="var(--footer-bg-color)"
+          >
+            <use href="./images/icons.svg#icon-hamburger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu is-hidden" data-menu>
+        <div>
+          <button type="button" class="close-menu" data-menu-close>
+            <svg class="svg-close-menu" width="8" height="8">
+              <use href="/images/icons.svg#icon-icon-close-menu"></use>
+            </svg>
+          </button>
+          <ul class="menu-list list">
+            <li class="menu-item list-item">
+              <a href="./index.html" class="menu-item-link">Studio</a>
+            </li>
+            <li class="menu-item list-item">
+              <a href="./portfolio.html" class="menu-item-link">Portfolio</a>
+            </li>
+            <li class="menu-item list-item">
+              <a href="" class="menu-item-link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="contacts-menu-list list">
+            <li class="contacts-menu-item list-item">
+              <a href="tel:+110001111111" class="menu-contacts-phone link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="contacts-menu-item list-item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="menu-contacts-mail link"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="list menu-link-list">
+            <li class="list-item menu-item-icon">
+              <a class="link" href="">
+                <svg class="social-link-team" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-item menu-item-icon">
+              <a class="link" href="">
+                <svg class="social-link-team" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-item menu-item-icon">
+              <a class="link-menu-svg" href="">
+                <svg class="social-link-team" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-item menu-item-icon">
+              <a class="link" href="">
+                <svg class="social-link-team" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin-1-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -128,6 +206,9 @@
           <ul class="list works-list">
             <li class="works-list-items list-item">
               <img
+                srcset="
+                 ./images/img1.jpg 1x
+                ./images/work-1-2x.jpg 2x"
                 src="./images/img1.jpg"
                 alt="monitor"
                 width="360"
@@ -136,6 +217,9 @@
             </li>
             <li class="works-list-items list-item">
               <img
+                srcset="
+                 ./images/img2.jpg 1x
+                ./images/work-2-2x.jpg 2x"
                 src="./images/img2.jpg"
                 alt="pgone-display"
                 width="360"
@@ -144,6 +228,9 @@
             </li>
             <li class="works-list-items list-item">
               <img
+                srcset="
+                 ./images/img3.jpg 1x
+                ./images/work-3-2x.jpg 2x"
                 src="./images/img3.jpg"
                 alt="phone-in-hand"
                 width="360"
@@ -159,6 +246,9 @@
           <ul class="list team-list">
             <li class="list-item team">
               <img
+                srcset="
+                 ./images/team-1.jpg 1x
+                ./images/team-1-2x.jpg 2x"
                 src="./images/team-1.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -202,6 +292,9 @@
             </li>
             <li class="list-item team">
               <img
+                srcset="
+                 ./images/team-2.jpg 1x
+                ./images/team-2-2x.jpg 2x"
                 src="./images/team-2.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -245,6 +338,9 @@
             </li>
             <li class="list-item team">
               <img
+                srcset="
+                 ./images/team-3.jpg 1x
+                ./images/team-3-2x.jpg 2x"
                 src="./images/team-3.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -300,6 +396,9 @@
             </li>
             <li class="list-item team">
               <img
+                srcset="
+                 ./images/team-4.jpg 1x
+                ./images/team-4-2x.jpg 2x"
                 src="./images/team-4.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -356,6 +455,7 @@
           </ul>
         </div>
       </section>
+
       <section class="customers-section">
         <div class="container-customers container">
           <h2 class="title-customers">Customers</h2>
@@ -440,6 +540,7 @@
             </li>
           </ul>
         </div>
+
         <div class="form">
           <p class="footer-form-text">Subscribe</p>
 
@@ -543,5 +644,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

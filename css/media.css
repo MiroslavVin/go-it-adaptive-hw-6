@@ -1,0 +1,319 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 427px;
+  }
+}
+/*---------------------------- FEATURE MEDIA ---------------------- */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .team-container {
+    max-width: 584px;
+  }
+  .feature-list {
+    gap: 72px 24px;
+  }
+
+  .feature-items {
+    width: calc((100% - 24px) / 2);
+  }
+  .feature-title {
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+  .section-feature {
+    padding: 120px 0;
+  }
+  .feature-box {
+    padding: 24px 100px;
+    display: block;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: var(--footer-text-color);
+    height: 112px;
+  }
+
+  .feature-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .feature-text {
+    font-weight: 400;
+  }
+  .feature-list {
+    gap: 24px;
+  }
+  .feature-items {
+    max-width: 264px;
+  }
+}
+
+/*---------------------------- WORKS MEDIA ---------------------- */
+
+@media screen and (min-width: 1158px) {
+  .section-works {
+    padding-bottom: 120px;
+  }
+  .works-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+  }
+  .section-works-title {
+    display: block;
+    color: var(--hero-bg);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+  }
+}
+
+/*---------------------------- OUR TEAM MEDIA ---------------------- */
+
+@media screen and (min-width: 768px) {
+  .team-list {
+    gap: 64px 24px;
+  }
+}
+
+@media screen and (min-width: 1168px) {
+  .container {
+  }
+  .team-list {
+    gap: 24px;
+  }
+  .section-our-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+/*---------------------------- CUSTOMER MEDIA ---------------------- */
+
+@media screen and (min-width: 768px) {
+  .customer-logo-item {
+    width: calc((100% - 2 * 24px) / 3);
+    gap: 72px 24px;
+  }
+  .container-customers {
+    max-width: 584px;
+  }
+}
+
+@media screen and (min-width: 1168px) {
+  .customer-logo-item {
+    width: calc((100% - 120px) / 6);
+  }
+  .container-customers {
+    max-width: 1168px;
+  }
+  .customer-list {
+    gap: 24px;
+  }
+}
+
+/*---------------------------- FOOTER MEDIA ---------------------- */
+@media screen and (min-width: 768px) {
+  .footer-items {
+    display: flex;
+    width: 552px;
+    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-container {
+    margin: 0 24px 0 0;
+  }
+
+  .footer-items {
+    margin: 0 24px 0 0;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-container {
+    margin: 0 24px 0 0;
+  }
+
+  .footer-items {
+    margin: 0 24px 0 0;
+    margin: auto;
+  }
+
+  .social-media {
+    margin-top: 0;
+  }
+
+  .social-footer-title {
+    text-align: start;
+    margin-top: 0;
+  }
+
+  .footer-form {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .footer-input {
+    width: 264px;
+  }
+  .btn-subscribe {
+    margin-top: 0;
+  }
+  .footer-form-text {
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 1168px) {
+  .footer-items {
+    width: 100%;
+  }
+  .footer-container {
+    margin-right: 120px;
+  }
+  .social-media {
+    margin-right: 80px;
+  }
+}
+/*---------------------------- NAV MENU MEDIA ---------------------- */
+@media screen and (max-width: 768px) {
+  /* .header { */
+  /* height: 70px; */
+  /* } */
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    height: 72px;
+  }
+
+  .open-menu {
+    display: none;
+  }
+  .nav-list {
+    display: flex;
+  }
+
+  .contacts-list {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .menu-contacts-phone {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+}
+
+/*---------------------------- HEADER MEDIA ---------------------- */
+
+@media screen and (min-width: 768px) {
+  .header-logo {
+    margin-right: 120px;
+  }
+
+  .contacts-list {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contacts-link {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1168px) {
+  .contacts-link {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+  }
+  .contacts-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+
+/*---------------------------- HERO MEDIA ---------------------- */
+
+@media screen and (min-width: 768px) {
+  .section-hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-tab.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg-2x-tab.jpg);
+    }
+  }
+
+  .main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    margin: 0 auto 48px;
+    letter-spacing: 0.02em;
+    text-transform: inherit;
+  }
+}
+
+@media screen and (min-width: 1168px) {
+  .section-hero {
+    background-color: var(--hero-bg);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-2x.jpg);
+    }
+  }
+
+  /* .main-title {
+     font-size: 56px;
+    margin: 0 auto 48px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-transform: inherit;
+  } */
+}
