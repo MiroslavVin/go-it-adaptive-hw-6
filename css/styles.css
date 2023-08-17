@@ -192,7 +192,8 @@ ol {
   /* transition: transform 250ms ease-in-out; */
 }
 
-.menu-list {
+.menu-item-link.current {
+  color: var(--web-logo-color);
 }
 
 .menu-item:not(:last-child) {
