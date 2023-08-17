@@ -134,6 +134,7 @@
     text-align: start;
     display: flex;
     flex-wrap: wrap;
+    gap: 72px 24px;
   }
   .footer-container {
     margin: 0 24px 0 0;
@@ -183,12 +184,16 @@
 @media screen and (min-width: 1168px) {
   .footer-items {
     width: 100%;
+    gap: 0;
   }
   .footer-container {
     margin-right: 120px;
   }
   .social-media {
     margin-right: 80px;
+  }
+  .footer {
+    padding: 100px 0;
   }
 }
 /*---------------------------- NAV MENU MEDIA ---------------------- */
@@ -279,6 +284,12 @@
     margin: 0 auto 48px;
     letter-spacing: 0.02em;
     text-transform: inherit;
+  }
+
+  .modal {
+    max-width: 408px;
+    min-height: 584px;
+    overflow: unset;
   }
 }
 
